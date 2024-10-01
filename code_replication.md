@@ -3,7 +3,6 @@ layout: default
 title: "Code & Replication"
 permalink: /code_replication/
 ---
-# Code
 
 ### [medea](https://github.com/inwe-boku/medea)
    A Python package for interacting with abstract medea electricity system model implemented in GAMS.
