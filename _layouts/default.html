@@ -9,15 +9,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Full-width navigation bar -->
+   <!-- Full-width navigation bar -->
     <header class="top-nav">
         <nav>
             <ul>
-                <li><span class="site-title">Sebastian Wehrle</span></li>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about/">About</a></li>
-                <li><a href="/projects/">Projects</a></li>
-                <li><a href="/contact/">Contact</a></li>
+                <!-- Name clickable for home and centered -->
+                <li class="nav-name"><a href="/">Sebastian Wehrle</a></li>
+                <li class="nav-links">
+                    <a href="/research/">Research</a>
+                    <a href="/code_replication/">Code & Replication</a>
+                    <a href="/bio/">Bio</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -27,7 +29,10 @@
         <!-- Sidebar -->
         <aside class="sidebar">
             <img src="/assets/images/sewer.jpg" alt="Sebastian" class="profile-photo">
-            <p>Researcher<br>Wien Energie & BOKU University</p>
+            <p>Researcher at<br>
+                Wien Energie & <br>
+                BOKU University
+            </p>
             <ul class="contact-info">
                 <li><a href="mailto:sebastian.wehrle@boku.ac.at">Email</a></li>
                 <li><a href="https://bsky.app/profile/sebwehrle.bsky.social">Bluesky</a></li>
