@@ -50,4 +50,6 @@ permalink: /research/
 
 
 ### Working papers:
-* forthcoming 
+* Schmidt, J., Mitter, H., Baumann, M., Boza-Kiss, B., Huppmann, D., **Wehrle, S.**, Zwieb, L., Klingler, M. (2024). 
+  [Need for Speed: Co-Creating Scenarios for Climate Neutral Energy Systems in Austria in 2040](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4876120)
+  SSRN.
