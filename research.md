@@ -39,7 +39,7 @@ permalink: /research/
    Applied Energy, 282, 116082.
 *  McKenna, R., Ryberg, D. S., Staffell, I., Hahmann, A. N., Schmidt, J., Heinrichs, H., Höltinger, S., Lilliestam, J., 
    Pfenninger, S., Robinius, M., Stolten, D., Tröndle, T. **Wehrle, S.** & Weinand, J. M. (2020). 
-   [On the socio-technical potential for onshore wind in Europe: a response to Enevoldsen et al.(2019).]() 
+   [On the socio-technical potential for onshore wind in Europe: a response to Enevoldsen et al.(2019).](https://doi.org/10.1016/j.enpol.2020.111693) 
    Energy Policy, 132, 1092-1100. Energy Policy, 145, 111693.  
 * Schmidt, J., Gruber, K., Klingler, M., Klöckl, C., Ramirez Camargo, L., Regner, P., Turkovska, O., **Wehrle, S.** & Wetterlund, E. (2019).
    [A new perspective on global renewable energy systems: why trade in energy carriers matters.](https://doi.org/10.1039/C9EE00223E)
