@@ -1,57 +1,107 @@
-/* Container for the sidebar and content */
-.container {
-    display: flex;
+/* General styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern sans-serif font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* Sidebar Styling */
+/* Full-width navigation bar */
+.top-nav {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    z-index: 1000; /* Keeps it above other content */
+}
+
+.top-nav nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.top-nav nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.top-nav nav ul li a {
+    color: white; /* Same color as text */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-nav nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Sidebar and main content container */
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 60px; /* Space for the fixed navigation bar */
+}
+
+/* Sidebar styling */
 .sidebar {
     width: 250px;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #fff;
     border-right: 1px solid #ddd;
-    height: 100vh; /* Full height */
-    position: fixed; /* Make the sidebar fixed */
-    top: 0;
+    box-sizing: border-box;
+    height: calc(100vh - 60px); /* Full height minus the navigation bar */
+    position: fixed;
+    top: 60px; /* Position under the navigation bar */
     left: 0;
 }
 
-/* Main content area */
-.main-content {
-    margin-left: 250px; /* Leave space for the sidebar */
-    padding: 20px;
-    width: calc(100% - 250px);
+.sidebar h2 {
+    font-size: 1.5em;
 }
 
-/* Remove the default bullet points */
+.sidebar p {
+    margin: 20px 0 10px;
+}
+
 .sidebar ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 .sidebar ul li {
     margin-bottom: 10px;
 }
 
-/* Style the navigation links */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
+.sidebar ul li a {
+    color: #333; /* Match the text color */
     text-decoration: none;
-    color: #333;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+.sidebar ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Profile picture styling */
+.profile-photo {
+    max-width: 100%; /* Ensures the image fits within the sidebar */
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 15px;
+}
+
+/* Main content styling */
+.main-content {
+    margin-left: 250px; /* Leave space for the sidebar */
+    padding: 20px;
+    width: calc(100% - 250px);
+    box-sizing: border-box;
 }
 
 /* Footer styling */
@@ -63,13 +113,19 @@ footer {
     color: inherit;
 }
 
-/* Responsive Design */
-@media (max-width: 600px) {
-    .content {
-        padding: 10px;
+/* Responsive design: Adjust sidebar and content for small screens */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        position: relative;
+        height: auto;
+        border-right: none;
+        top: auto;
+        padding: 15px;
     }
-    nav ul li {
-        display: block;
-        margin: 10px 0;
+
+    .main-content {
+        margin-left: 0;
+        width: 100%;
     }
 }

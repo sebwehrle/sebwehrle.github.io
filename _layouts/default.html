@@ -7,35 +7,39 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+    <!-- Full-width navigation bar -->
+    <header class="top-nav">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/projects/">Projects</a></li>
+                <li><a href="/contact/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Container for sidebar and content -->
     <div class="container">
         <!-- Sidebar -->
         <aside class="sidebar">
-            <h2>{{ site.title }}</h2>
-            <p>Contact info:</p>
+            <img src="/assets/images/sewer.jpg" alt="Sebastian" class="profile-photo">
+            <h2>Sebastian Wehrle</h2>
+            <p>Researcher</p>
             <ul>
-                <li>Email: <a href="mailto:sebastian.wehrle@boku.ac.at">sebastian.wehrle@boku.ac.at</a></li>
-                <li>Blusky: <a href="sebwehrle@bsky.social">sebwehrle@bsky.social</a></li>
+                <li><a href="mailto:sebastian.wehrle@boku.ac.at">Email</a></li>
+                <li><a href="https://bsky.app/profile/sebwehrle.bsky.social">Bluesky</a></li>
             </ul>
         </aside>
 
         <!-- Main Content Area -->
         <div class="main-content">
-            <!-- Header with Navigation -->
-            <header>
-                <nav>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/research/">Research</a></li>
-                        <li><a href="/code_replication/">Code & Replication</a></li>
-                        <li><a href="/bio/">Bio & Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-
+            <!-- Page Content -->
             <main>
                 {{ content }}
             </main>
 
+            <!-- Footer -->
             <footer>
                 <p>&copy; 2024 {{ site.title }}</p>
             </footer>
