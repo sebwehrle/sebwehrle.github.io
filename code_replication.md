@@ -7,7 +7,7 @@ permalink: /code_replication/
 ### [medea](https://github.com/inwe-boku/medea)
    A Python package for interacting with abstract medea electricity system model implemented in GAMS.
    _medea_ was used in the [reFUEL](https://refuel.world) and [NetZero2040](www.etzero2040.at) projects
-   and was first introduced and peer-reviewd in [The cost of undisturbed landscapes](https://doi.org/10.1016/j.enpol.2021.112617)
+   and was first introduced and peer-reviewed in [The cost of undisturbed landscapes](https://doi.org/10.1016/j.enpol.2021.112617)
    published in *Energy Policy*.
 
 ### [medea data (AT/DE)](https://github.com/inwe-boku/medea_data_atde)
