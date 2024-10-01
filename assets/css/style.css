@@ -16,7 +16,8 @@ html, body {
 
 /* Sidebar styling */
 .sidebar {
-    width: 250px; /* Fixed width for the sidebar */
+    min-width: 250px; /* Fixed width for the sidebar */
+    width: auto;
     padding: 20px;
     background-color: #f9f9f9;
     height: 100vh; /* Full height of the viewport */
@@ -37,6 +38,8 @@ html, body {
 .sidebar h1.name a {
     color: #333; /* Make the name a clickable link */
     text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .sidebar h1.name a:hover {
