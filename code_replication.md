@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Code & Replication"
 permalink: /code_replication/
 ---

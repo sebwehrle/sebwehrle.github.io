@@ -10,3 +10,6 @@ markdown: kramdown
 
 google_fonts:
   - family: 'Lato:wght@400;700&display=swap'
+
+include:
+  - assets/css/style.css
