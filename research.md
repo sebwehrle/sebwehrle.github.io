@@ -41,7 +41,7 @@ permalink: /research/
    Pfenninger, S., Robinius, M., Stolten, D., Tröndle, T. **Wehrle, S.** & Weinand, J. M. (2020). 
    [On the socio-technical potential for onshore wind in Europe: a response to Enevoldsen et al.(2019).]() 
    Energy Policy, 132, 1092-1100. Energy Policy, 145, 111693.  
-* Schmidt, J., Gruber, K., Klingler, M., Klöckl, C., Camargo, L. R., Regner, P., ..., **Wehrle, S.** & Wetterlund, E. (2019).
+* Schmidt, J., Gruber, K., Klingler, M., Klöckl, C., Ramirez Camargo, L., Regner, P., Turkovska, O., **Wehrle, S.** & Wetterlund, E. (2019).
    [A new perspective on global renewable energy systems: why trade in energy carriers matters.](https://doi.org/10.1039/C9EE00223E)
    Energy & Environmental Science, 12(7), 2022-2029.
 *  Kirchner, M., Schmidt, J., & Wehrle, S. (2019). 
