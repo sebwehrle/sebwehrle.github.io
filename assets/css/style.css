@@ -7,7 +7,7 @@ html, body {
     color: #333;
 }
 
-/* Container for sidebar and main content */
+/* Main container layout */
 .container {
     display: flex;
     height: 100vh; /* Full height of the viewport */
@@ -16,28 +16,37 @@ html, body {
 
 /* Sidebar styling */
 .sidebar {
-    width: 250px;
+    width: 250px; /* Fixed width for the sidebar */
     padding: 20px;
     background-color: #f9f9f9;
-    height: 100vh;
+    height: 100vh; /* Full height of the viewport */
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Center-align content horizontally */
 }
 
-/* Sidebar content */
+/* Sidebar content (name, image, job description, and contact info) */
 .sidebar h1.name {
-    font-size: 1.8em;
+    font-size: 1.4em; /* Reduced font size to avoid line breaks */
     margin: 0;
     padding-bottom: 20px;
     font-weight: 600;
 }
 
+.sidebar h1.name a {
+    color: #333; /* Make the name a clickable link */
+    text-decoration: none;
+}
+
+.sidebar h1.name a:hover {
+    text-decoration: underline;
+}
+
 .profile-photo {
     width: 120px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 50%; /* Circular image */
     margin: 10px 0;
 }
 
@@ -55,7 +64,7 @@ html, body {
 
 .contact-info li {
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left; /* Left-align the contact details */
 }
 
 .contact-info li i {
@@ -101,7 +110,7 @@ html, body {
 }
 
 .nav-links a {
-    font-size: 1.8em;
+    font-size: 1.4em; /* Reduced font size to match sidebar name */
     color: #333;
     text-decoration: none;
     font-weight: 600;
@@ -132,8 +141,8 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
     .sidebar {
-        width: 100%;
-        height: auto;
+        width: 100%; /* Sidebar becomes full width */
+        height: auto; /* Sidebar adjusts to content */
     }
 
     .main-content {
@@ -149,6 +158,6 @@ footer {
     }
 
     .nav-links {
-        gap: 15px;
+        gap: 15px; /* Reduced gap between links */
     }
 }
