@@ -7,27 +7,39 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-    <header>
-        <h1>{{ site.title }}</h1>
-        <p>{{ site.description }}</p>
-
-        <!-- Navigation Links -->
-        <nav>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>{{ site.title }}</h2>
+            <p>Contact info:</p>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/research/">Research</a></li>
-                <li><a href="/code_replication/">Code & Replication</a></li>
-                <li><a href="/bio/">Bio & Contact</a></li>
+                <li>Email: <a href="mailto:sebastian.wehrle@boku.ac.at">sebastian.wehrle@boku.ac.at</a></li>
+                <li>Blusky: <a href="sebwehrle@bsky.social">sebwehrle@bsky.social</a></li>
             </ul>
-        </nav>
-    </header>
+        </aside>
 
-    <main>
-        {{ content }}
-    </main>
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <!-- Header with Navigation -->
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/research/">Research</a></li>
+                        <li><a href="/code_replication/">Code & Replication</a></li>
+                        <li><a href="/bio/">Bio & Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-    <footer>
-        <p>&copy; 2024 {{ site.title }}</p>
-    </footer>
+            <main>
+                {{ content }}
+            </main>
+
+            <footer>
+                <p>&copy; 2024 {{ site.title }}</p>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
