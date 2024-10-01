@@ -9,21 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-   <!-- Full-width navigation bar -->
-    <header class="top-nav">
-        <nav>
-            <ul>
-                <!-- Name clickable for home and centered -->
-                <li class="nav-name"><a href="/">Sebastian Wehrle</a></li>
-                <li class="nav-links">
-                    <a href="/research/">Research</a>
-                    <a href="/code_replication/">Code & Replication</a>
-                    <a href="/bio/">Bio</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
     <!-- Container for sidebar and content -->
     <div class="container">
         <!-- Sidebar -->
@@ -41,7 +26,17 @@
 
         <!-- Main Content Area -->
         <div class="main-content">
-            <!-- Page Content -->
+            <!-- Full-width navigation bar -->
+            <header class="top-nav">
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="/bio/">Bio</a></li>
+                        <li><a href="/code_replication/">Code Replication</a></li>
+                        <li><a href="/research/">Research</a></li>
+                    </ul>
+                </nav>
+            </header>
+
             <main>
                 {{ content }}
             </main>
@@ -52,16 +47,5 @@
     <footer>
         <p>&copy; 2024 {{ site.title }}</p>
     </footer>
-
-    <script>
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            link.addEventListener('click', function(event) {
-                if (this.href === window.location.href) {
-                    event.preventDefault(); // Prevent default anchor click behavior
-                    window.location.reload(); // Reload the page
-                }
-            });
-        });
-    </script>
 </body>
 </html>
