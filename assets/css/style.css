@@ -1,22 +1,35 @@
 /* General styles */
-body {
-    font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern sans-serif font */
+html, body {
+    height: 100%; /* Ensure body and html are 100% height */
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: 'Poppins', sans-serif; /* More stylish font */
+    background-color: #f9f9f9; /* Light background color for a unified look */
     color: #333;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex: 1; /* This ensures the container stretches to fill the available space */
+    margin-top: 60px; /* Space for the fixed navigation bar */
+    background-color: #f9f9f9; /* Same light background for all sections */
 }
 
 /* Full-width navigation bar */
 .top-nav {
-    background-color: #333;
-    color: white;
+    background-color: #f9f9f9; /* Light background for unified design */
+    color: #333;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     padding: 10px 0;
     z-index: 1000; /* Keeps it above other content */
+    border-bottom: 1px solid #ddd; /* Adds a light border to separate from content */
 }
 
 .top-nav nav ul {
@@ -32,7 +45,7 @@ body {
 }
 
 .top-nav nav ul li a {
-    color: white; /* Same color as text */
+    color: #333; /* Same color as text */
     text-decoration: none;
     font-weight: bold;
 }
@@ -41,28 +54,22 @@ body {
     text-decoration: underline; /* Underline on hover */
 }
 
-/* Sidebar and main content container */
-.container {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-top: 60px; /* Space for the fixed navigation bar */
+.site-title {
+    font-weight: 600;
+    font-size: 1.2em; /* Make the site name slightly larger */
 }
 
 /* Sidebar styling */
 .sidebar {
     width: 250px;
     padding: 20px;
-    background-color: #fff;
-    border-right: 1px solid #ddd;
-    box-sizing: border-box;
+    background-color: #f9f9f9; /* Same light background */
+    border-right: 1px solid #ddd; /* Light border to separate from main content */
     height: calc(100vh - 60px); /* Full height minus the navigation bar */
     position: fixed;
     top: 60px; /* Position under the navigation bar */
     left: 0;
-}
-
-.sidebar h2 {
-    font-size: 1.5em;
+    box-sizing: border-box;
 }
 
 .sidebar p {
@@ -88,12 +95,28 @@ body {
     text-decoration: underline; /* Underline on hover */
 }
 
+.contact-info li {
+    padding-left: 20px; /* Indent the contact info */
+}
+
+.contact-info li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info li a:hover {
+    text-decoration: underline;
+}
+
 /* Profile picture styling */
 .profile-photo {
-    max-width: 100%; /* Ensures the image fits within the sidebar */
-    height: auto;
-    border-radius: 50%; /* Makes the image circular */
+    width: 100px; /* Smaller picture */
+    height: 100px; /* Same width and height for a square image */
+    border-radius: 50%; /* Circular image */
     margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Main content styling */
@@ -107,10 +130,12 @@ body {
 /* Footer styling */
 footer {
     text-align: center;
-    margin-top: 50px;
     padding: 10px;
     background-color: inherit;
     color: inherit;
+    width: 100%;
+    margin-top: auto; /* Pushes the footer to the bottom if the content is shorter than the page */
+    box-sizing: border-box;
 }
 
 /* Responsive design: Adjust sidebar and content for small screens */
@@ -127,5 +152,10 @@ footer {
     .main-content {
         margin-left: 0;
         width: 100%;
+    }
+
+    .profile-photo {
+        width: 80px; /* Smaller for mobile */
+        height: 80px;
     }
 }
