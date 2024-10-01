@@ -14,8 +14,8 @@ body {
 
 .container {
     display: flex;
-    flex: 1; /* This ensures the container stretches to fill the available space */
-    margin-top: 60px; /* Space for the fixed navigation bar */
+    flex: 1;
+    margin-top: 60px;
     background-color: #f9f9f9;
 }
 
@@ -32,7 +32,6 @@ body {
     border-bottom: 1px solid #ddd;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 /* Aligning navigation links */
@@ -44,24 +43,17 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 
 .nav-name {
-    position: absolute;
-    left: 20px; /* Adjust to align with sidebar profile picture */
-}
-
-.nav-name a {
     font-weight: 600;
-    font-size: 1.2em;
-    text-decoration: none;
-    color: #333;
+    font-size: 1.5em;
+    margin-right: 20px;
 }
 
 .nav-links {
     display: flex;
-    gap: 30px;
+    gap: 30px; /* Space between the links */
 }
 
 .nav-links a {
@@ -87,7 +79,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Lighter font in the sidebar */
 .sidebar p, .sidebar ul {
     font-weight: 300; /* Lighter font */
 }
@@ -117,9 +108,9 @@ body {
 
 /* Profile picture styling */
 .profile-photo {
-    width: 100px; /* Smaller picture */
-    height: auto; /* Maintain aspect ratio to prevent distortion */
-    border-radius: 50%; /* Circular image */
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
     margin-bottom: 15px;
     display: block;
     margin-left: auto;
