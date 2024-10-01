@@ -3,7 +3,7 @@ html, body {
     height: 100%; /* Ensure body and html are 100% height */
     margin: 0;
     font-family: 'Poppins', sans-serif; /* More stylish font */
-    background-color: #f9f9f9; /* Light background color for a unified look */
+    background-color: #f9f9f9; /* Light background color */
     color: #333;
 }
 
@@ -16,60 +16,80 @@ body {
     display: flex;
     flex: 1; /* This ensures the container stretches to fill the available space */
     margin-top: 60px; /* Space for the fixed navigation bar */
-    background-color: #f9f9f9; /* Same light background for all sections */
+    background-color: #f9f9f9;
 }
 
 /* Full-width navigation bar */
 .top-nav {
-    background-color: #f9f9f9; /* Light background for unified design */
+    background-color: #f9f9f9;
     color: #333;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     padding: 10px 0;
-    z-index: 1000; /* Keeps it above other content */
-    border-bottom: 1px solid #ddd; /* Adds a light border to separate from content */
+    z-index: 1000;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Aligning navigation links */
 .top-nav nav ul {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-.top-nav nav ul li {
-    display: inline-block;
-    margin: 0 15px;
+.nav-name {
+    position: absolute;
+    left: 20px; /* Adjust to align with sidebar profile picture */
 }
 
-.top-nav nav ul li a {
-    color: #333; /* Same color as text */
+.nav-name a {
+    font-weight: 600;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #333;
     text-decoration: none;
     font-weight: bold;
 }
 
-.top-nav nav ul li a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
-
-.site-title {
-    font-weight: 600;
-    font-size: 1.2em; /* Make the site name slightly larger */
+.nav-links a:hover {
+    text-decoration: underline;
 }
 
 /* Sidebar styling */
 .sidebar {
     width: 250px;
     padding: 20px;
-    background-color: #f9f9f9; /* Same light background */
-    border-right: 1px solid #ddd; /* Light border to separate from main content */
+    background-color: #f9f9f9;
+    border-right: 1px solid #ddd;
     height: calc(100vh - 60px); /* Full height minus the navigation bar */
     position: fixed;
     top: 60px; /* Position under the navigation bar */
     left: 0;
     box-sizing: border-box;
+}
+
+/* Lighter font in the sidebar */
+.sidebar p, .sidebar ul {
+    font-weight: 300; /* Lighter font */
 }
 
 .sidebar p {
@@ -80,19 +100,6 @@ body {
     list-style-type: none;
     padding: 0;
     margin: 0;
-}
-
-.sidebar ul li {
-    margin-bottom: 10px;
-}
-
-.sidebar ul li a {
-    color: #333; /* Match the text color */
-    text-decoration: none;
-}
-
-.sidebar ul li a:hover {
-    text-decoration: underline; /* Underline on hover */
 }
 
 .contact-info li {
@@ -111,7 +118,7 @@ body {
 /* Profile picture styling */
 .profile-photo {
     width: 100px; /* Smaller picture */
-    height: 100px; /* Same width and height for a square image */
+    height: auto; /* Maintain aspect ratio to prevent distortion */
     border-radius: 50%; /* Circular image */
     margin-bottom: 15px;
     display: block;
@@ -134,7 +141,7 @@ footer {
     background-color: inherit;
     color: inherit;
     width: 100%;
-    margin-top: auto; /* Pushes the footer to the bottom if the content is shorter than the page */
+    margin-top: auto;
     box-sizing: border-box;
 }
 
@@ -156,6 +163,6 @@ footer {
 
     .profile-photo {
         width: 80px; /* Smaller for mobile */
-        height: 80px;
+        height: auto;
     }
 }
