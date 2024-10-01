@@ -9,74 +9,25 @@ html, body {
 
 body {
     display: flex;
-    flex-direction: column;
 }
 
 .container {
     display: flex;
-    flex: 1;
-    margin-top: 60px;
-    background-color: #f9f9f9;
-}
-
-/* Full-width navigation bar */
-.top-nav {
-    background-color: #f9f9f9;
-    color: #333;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 10px 0;
-    z-index: 1000;
-    border-bottom: 1px solid #ddd;
-    display: flex;
-    justify-content: center;
-}
-
-/* Aligning navigation links */
-.top-nav nav ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-.nav-name {
-    font-weight: 600;
-    font-size: 1.5em;
-    margin-right: 20px;
-}
-
-.nav-links {
-    display: flex;
-    gap: 30px; /* Space between the links */
-}
-
-.nav-links a {
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.nav-links a:hover {
-    text-decoration: underline;
+    flex: 1; /* This ensures the container stretches to fill the available space */
 }
 
 /* Sidebar styling */
 .sidebar {
-    width: 250px;
+    width: 250px; /* Width of the sidebar */
     padding: 20px;
-    background-color: #f9f9f9;
-    border-right: 1px solid #ddd;
-    height: calc(100vh - 60px); /* Full height minus the navigation bar */
-    position: fixed;
-    top: 60px; /* Position under the navigation bar */
-    left: 0;
+    background-color: #f9f9f9; /* Same light background */
+    border-right: 1px solid #ddd; /* Light border to separate from main content */
+    height: 100vh; /* Full height of the viewport */
     box-sizing: border-box;
+}
+
+.sidebar h2 {
+    text-align: center; /* Center the name */
 }
 
 .sidebar p, .sidebar ul {
@@ -106,23 +57,47 @@ body {
     text-decoration: underline;
 }
 
-/* Profile picture styling */
-.profile-photo {
-    width: 80px;
-    height: auto;
-    border-radius: 50%;
-    margin-bottom: 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+/* Main content area */
+.main-content {
+    flex: 1; /* Takes remaining space */
+    padding: 20px;
 }
 
-/* Main content styling */
-.main-content {
-    margin-left: 250px; /* Leave space for the sidebar */
-    padding: 20px;
-    width: calc(100% - 250px);
-    box-sizing: border-box;
+/* Full-width navigation bar */
+.top-nav {
+    background-color: #f9f9f9; /* Light background for unified design */
+    color: #333;
+    padding: 10px 0;
+    z-index: 1000; /* Keeps it above other content */
+    border-bottom: 1px solid #ddd; /* Adds a light border to separate from content */
+}
+
+.top-nav nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Center the navigation links */
+}
+
+.nav-links a {
+    color: #333; /* Same color as text */
+    text-decoration: none;
+    font-weight: bold; /* Ensure consistent styling */
+    margin: 0 15px; /* Space between links */
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Profile picture styling */
+.profile-photo {
+    width: 80px; /* Adjusted size for better aesthetics */
+    height: auto; /* Maintain aspect ratio to prevent distortion */
+    border-radius: 50%; /* Circular image */
+    margin: 0 auto 15px; /* Center the image */
+    display: block;
 }
 
 /* Footer styling */
@@ -132,7 +107,7 @@ footer {
     background-color: inherit;
     color: inherit;
     width: 100%;
-    margin-top: auto;
+    margin-top: auto; /* Pushes the footer to the bottom if the content is shorter than the page */
     box-sizing: border-box;
 }
 
@@ -143,7 +118,6 @@ footer {
         position: relative;
         height: auto;
         border-right: none;
-        top: auto;
         padding: 15px;
     }
 
