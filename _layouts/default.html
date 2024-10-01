@@ -10,35 +10,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <!-- Container for sidebar and content -->
-    <div class="page-container">
+    <!-- Main container for the sidebar and content -->
+    <div class="container">
         <!-- Sidebar (fixed to the left) -->
         <aside class="sidebar">
-            <h2>Sebastian Wehrle</h2> <!-- Name displayed at the top -->
+            <h1 class="name">Sebastian Wehrle</h1> <!-- Name displayed at the top -->
             <img src="/assets/images/sewer.jpg" alt="Sebastian Wehrle" class="profile-photo">
-            <p>Researcher at Boku University</p> <!-- Updated sidebar text -->
+            <p>Researcher at Boku University</p> <!-- Job description -->
             <ul class="contact-info">
-                <!-- Email link with icon -->
                 <li><i class="fas fa-envelope"></i> <a href="mailto:sebastian.wehrle@boku.ac.at">Email</a></li>
-                <!-- Bluesky link with globe icon -->
                 <li><i class="fas fa-globe"></i> <a href="https://bsky.app/profile/sebwehrle.bsky.social">Bluesky</a></li>
             </ul>
         </aside>
 
-        <!-- Main Content Area (header and body stretch after sidebar) -->
+        <!-- Main content area including the top navigation pane -->
         <div class="main-content">
-            <!-- Horizontal Navigation Bar -->
+            <!-- Horizontal Navigation Bar aligned with the name in the sidebar -->
             <header class="top-nav">
                 <nav>
                     <ul class="nav-links">
                         <li><a href="/bio/">Bio</a></li>
-                        <li><a href="/code_replication/">Code Replication</a></li>
+                        <li><a href="/code_replication/">Code & Replication</a></li>
                         <li><a href="/research/">Research</a></li>
                     </ul>
                 </nav>
             </header>
 
-            <!-- Page Content -->
+            <!-- Page content below the navigation -->
             <main>
                 {{ content }}
             </main>
