@@ -1,3 +1,16 @@
-theme: jekyll-theme-cayman
 title: "Sebastian Wehrle"
 description: "Researcher in the Economics of Energy and the Environment"
+baseurl: "" # required for relative URLs
+url: "https://sebastianwehrle.github.io" # Replace with your custom domain
+
+# Theme configuration
+theme: jekyll-theme-cayman
+
+# Navigation links
+nav:
+  - name: "Bio"
+    link: "/bio/"
+  - name: "Research"
+    link: "/research/"
+  - name: "Code & Replication"
+    link: "/code_replication/"
