@@ -11,6 +11,7 @@ Coverage of my research in Austrian media:
 * [Was getan werden muss, um die Klimaziele zu erreichen](https://kurier.at/wirtschaft/klimaziele-erneuerbare-net-zero-oesterreich-2040/402708217) Kurier, 14. Dez 2023
 * [Wo Österreichs Energiepotenziale liegen](https://orf.at/stories/3326689/) ORF, 17. Aug 2023
 * [Dürre Zeiten für die Wasserkraft](https://www.diepresse.com/6160671/duerre-zeiten-fuer-die-wasserkraft) Die Presse, 09. Nov 2022
+* [Zukunft Windkraft: Wie schaffen wir die Energiewende, wenn der Ausbau hinkt?](https://kurier.at/wirtschaft/karriere/zukunft-windkraft-wie-schaffen-wir-die-energiewende-wenn-der-ausbau-hinkt/401909173) Kurier, 19.02.2022
 * [Genug Land? Wien Energiewende und Landnutzung zusammenhängen](https://www.derstandard.at/story/2000109902224/genug-land-wie-energiewende-und-landnutzung-zusammenhaengen) Der Standard, 16. Okt 2019
 
 Talks:
