@@ -6,8 +6,8 @@ permalink: /research/
 
 ### Peer-reviewed publications
 *  Turkovska, O., Gruber, K., Klingler, M., Klöckl, C., Ramirez Camargo, L., Regner, P., **Wehrle, S.** & Schmidt, J. (2024). 
-   [Methodological and reporting inconsistencies in land-use requirements misguide future renewable energy planning ](https://eartharxiv.org/repository/object/6319/download/12282/)
-   One Earth (forthcoming)  
+   [Methodological and reporting inconsistencies in land-use requirements misguide future renewable energy planning ](https://doi.org/10.1016/j.oneear.2024.09.010)
+   One Earth, 7(10), 1741-1759.
 * **Wehrle, S.**, Regner, P., Morawetz, U. B., & Schmidt, J. (2024). 
    [Inferring local social cost from renewable zoning decisions. Evidence from Lower Austria’s wind power zoning.](https://doi.org/10.1016/j.eneco.2024.107865)
    Energy Economics, 107865.
