@@ -5,6 +5,9 @@ permalink: /research/
 ---
 
 ### Peer-reviewed publications
+*  Schmidt, J., Mitter, H., Baumann, M., Boza-Kiss, B., Huppmann, D., **Wehrle, S.**, Zwieb, L., Klingler, M. (2025). 
+   [Need for Speed: Co-Creating Scenarios for Climate Neutral Energy Systems in Austria in 2040](https://doi.org/10.1016/j.enpol.2024.114493)
+   Energy Policy, 198, 114493.
 *  Turkovska, O., Gruber, K., Klingler, M., Klöckl, C., Ramirez Camargo, L., Regner, P., **Wehrle, S.** & Schmidt, J. (2024). 
    [Methodological and reporting inconsistencies in land-use requirements misguide future renewable energy planning ](https://doi.org/10.1016/j.oneear.2024.09.010)
    One Earth, 7(10), 1741-1759.
@@ -47,9 +50,3 @@ permalink: /research/
 *  Kirchner, M., Schmidt, J., & Wehrle, S. (2019). 
    [Exploiting synergy of carbon pricing and other policy instruments for deep decarbonization.](https://doi.org/10.1016/j.joule.2019.03.006) 
    Joule, 3(4), 891-893.
-
-
-### Working papers:
-* Schmidt, J., Mitter, H., Baumann, M., Boza-Kiss, B., Huppmann, D., **Wehrle, S.**, Zwieb, L., Klingler, M. (2024). 
-  [Need for Speed: Co-Creating Scenarios for Climate Neutral Energy Systems in Austria in 2040](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4876120)
-  SSRN.
