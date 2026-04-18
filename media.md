@@ -16,5 +16,5 @@ Coverage of my research in Austrian media:
 
 Talks:
 * [Future Talk Climate X Change Windkraft & Energiewende](https://www.kunsthauswien.com/en/education/future-talk-windkraft-energiewende/) Kunsthaus Wien, 10. Aug 2022
-* [Die Kosten unveränderter Landschaften: Eine Abschätzung der Opportunitätskosten der Windkraft im österreichischen Energiesystem](https://www.youtube.com/watch?v=kVZjrdbKoZQ), Boku Energiecluster: Windkraft verstehen, 15. Mrz 2022
-* [Was kosten unveränderte Landschaften? Eine Analyse impliziter Bewertungen der Windkraft in Österreich](https://www.igwindkraft.at/?mdoc_id=1043799) 15. Branchenplattform Windenergie, IG Windkraft, 18. Jan 2022
+* [Die Kosten ungestörter Landschaften: Eine Abschätzung der Opportunitätskosten der Windkraft im österreichischen Energiesystem](https://www.youtube.com/watch?v=kVZjrdbKoZQ), Boku Energiecluster: Windkraft verstehen, 15. Mrz 2022
+* [Was kosten ungestörte Landschaften? Eine Analyse impliziter Bewertungen der Windkraft in Österreich](https://www.igwindkraft.at/?mdoc_id=1043799) 15. Branchenplattform Windenergie, IG Windkraft, 18. Jan 2022

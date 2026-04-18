@@ -3,52 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - Sebastian Wehrle</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <title>{% if page.url == '/' %}Sebastian Wehrle{% elsif page.title %}{{ page.title }} | Sebastian Wehrle{% else %}Sebastian Wehrle{% endif %}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
-<body>
-    <!-- Main container for the sidebar and content -->
-    <div class="container">
-        <!-- Sidebar (fixed to the left) -->
-        <aside class="sidebar">
-            <h1 class="name"><a href="/">Sebastian Wehrle</a></h1> <!-- Name now clickable -->
-            <img src="/assets/images/sewer.jpg" alt="Sebastian Wehrle" class="profile-photo">
-            <p>Boku University<br>
-                Wien Energie
-            </p> <!-- Job description -->
-            <ul class="contact-info">
-                <li><i class="fas fa-map-marker-alt"></i>Vienna, Austria</li>
-                <li><i class="fas fa-envelope"></i> <a href="mailto:sebastian.wehrle@boku.ac.at">Email</a></li>
-                <li><i class="fas fa-globe"></i> <a href="https://bsky.app/profile/sebwehrle.bsky.social">Bluesky</a></li>
-            </ul>
-        </aside>
+{% assign current_url = page.url | replace: 'index.html', '' %}
+<body class="{{ page.body_class | default: 'page' }}">
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header" aria-label="Site header">
+        <a class="site-brand" href="{{ '/' | relative_url }}">Sebastian Wehrle</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a href="{{ '/research/' | relative_url }}" {% if current_url == '/research/' %}aria-current="page"{% endif %}>Research</a>
+            <a href="{{ '/publications/' | relative_url }}" {% if current_url == '/publications/' %}aria-current="page"{% endif %}>Publications</a>
+            <a href="{{ '/about/' | relative_url }}" {% if current_url == '/about/' %}aria-current="page"{% endif %}>About</a>
+            <a href="{{ '/contact/' | relative_url }}" {% if current_url == '/contact/' %}aria-current="page"{% endif %}>Contact</a>
+        </nav>
+    </header>
 
-        <!-- Main content area including the top navigation pane -->
-        <div class="main-content">
-            <!-- Horizontal Navigation Bar aligned with the name in the sidebar -->
-            <header class="top-nav">
-                <nav>
-                    <ul class="nav-links">
-                        <li><a href="/research/">research</a></li>
-                        <li><a href="/code_replication/">code</a></li>
-                        <li><a href="/media/">media & talks</a></li>
-                    </ul>
-                </nav>
-            </header>
+    <main id="content" class="site-main">
+        {{ content }}
+    </main>
 
-            <!-- Page content below the navigation -->
-            <main>
-                {{ content }}
-            </main>
-        </div>
-    </div>
-
-    <!-- Footer at the bottom -->
-    <footer>
-        <p>&copy; 2024 Sebastian Wehrle</p>
+    <footer class="site-footer">
+        <p>&copy; {{ 'now' | date: '%Y' }} Sebastian Wehrle</p>
     </footer>
 </body>
 </html>

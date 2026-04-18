@@ -1,17 +1,12 @@
-# Site settings
-title: "Sebastian Wehrle - Homepage"
+title: "Sebastian Wehrle"
 email: "sebastian.wehrle@boku.ac.at"
-description: "Researcher in the Economics of Energy and the Environment"
-baseurl: "" # required for relative URLs
-url: "https://sebwehrle.github.io" # Replace with your custom domain
+description: "Economist working on energy and environmental systems."
+baseurl: ""
+url: "https://sebwehrle.github.io"
 
-# Build settings
 markdown: kramdown
 
 theme: minima
-
-google_fonts:
-  - family: 'Lato:wght@400;700&display=swap'
 
 include:
   - assets/css/style.css
