@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ page.description | default: site.description }}">
     <title>{% if page.url == '/' %}Sebastian Wehrle{% elsif page.title %}{{ page.title }} | Sebastian Wehrle{% else %}Sebastian Wehrle{% endif %}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% if site.github.build_revision %}
+        {% assign css_version = site.github.build_revision %}
+    {% else %}
+        {% assign css_version = site.time | date: '%s' %}
+    {% endif %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ css_version }}">
 </head>
 {% assign current_url = page.url | replace: 'index.html', '' %}
 <body class="{{ page.body_class | default: 'page' }}">
