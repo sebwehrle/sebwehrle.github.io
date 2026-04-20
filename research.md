@@ -10,6 +10,7 @@ permalink: /research/
     <h1 class="page-title">Research</h1>
     <p class="page-summary">
         My research on wind-power zoning treats siting conflict not as a question of vague public "acceptance", but as an economic problem with spatially differentiated local social costs.</p>
+    <p class="page-summary">Public debate on wind power often leaves little room for a sober weighing of competing considerations, even though the underlying valuations, particularly of landscape, are inherently non-objective.</p>
     <p class="page-summary">The work identifies the trade-offs implicit in zoning and siting decisions and renders them usable for economic analysis and power-system modelling.</p>
   </div>
 </section>
