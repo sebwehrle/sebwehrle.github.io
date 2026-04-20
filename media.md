@@ -7,10 +7,10 @@ permalink: /media/
 
 <section class="page-intro page-intro--single">
   <h1 class="page-title">Media</h1>
-  <p class="page-summary">Selected media coverage and public talks on wind power, electricity markets, and the economic dimensions of the Austrian energy transition.</p>
+  <p class="page-summary">Selected media coverage and public talks on wind power, electricity markets, and Austria’s energy transition.</p>
 </section>
 
-Coverage:
+In the media:
 
 * [Wie Österreich klimaneutral werden kann](https://www.derstandard.at/story/3000000205443/wie-oesterreich-klimaneutral-werden-kann){:target="_blank" rel="noopener noreferrer"} Der Standard, 07. Feb 2024
 * [Nach der Klimakonferenz: Österreichs Probleme bei der Energiewende](https://www.profil.at/morgenpost/nach-der-klimakonferenz-oesterreichs-probleme-bei-der-energiewende/402707296){:target="_blank" rel="noopener noreferrer"} Profil, 14. Dez 2023

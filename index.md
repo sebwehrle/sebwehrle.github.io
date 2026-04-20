@@ -9,6 +9,9 @@ body_class: home
   <h1 id="home-title">Sebastian Wehrle</h1>
   <p class="descriptor">ENERGY & ENVIRONMENTAL ECONOMICS</p>
   <span class="rule" aria-hidden="true"></span>
-  <p class="intro-copy">My work examines the economics of electricity systems and renewable energy. A central strand studies wind-power expansion in Austria, developing economic frameworks for the siting conflicts and local social costs reflected in zoning and long-term planning decisions.</p>
+  <p class="intro-copy">
+    I work on the economics of electricity systems and renewable energy.
+    My research on wind power expansion in Austria develops an economic framework for siting conflict by identifying the local social costs implicit in zoning decisions.
+  </p>
   <p class="affiliations">Wien Energie · BOKU University</p>
 </section>

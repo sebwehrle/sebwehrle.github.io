@@ -7,7 +7,7 @@ permalink: /contact/
 
 <section class="page-intro page-intro--single">
   <h1 class="page-title">Contact</h1>
-  <p class="page-summary">For research correspondence and related inquiries.</p>
+  <p class="page-summary">For correspondence.</p>
 </section>
 
 <section class="contact-panel" aria-label="Contact details">

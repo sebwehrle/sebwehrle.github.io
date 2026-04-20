@@ -8,7 +8,8 @@ permalink: /research/
 <section class="page-intro page-intro--single">
   <div>
     <h1 class="page-title">Research</h1>
-    <p class="page-summary">My research on wind-power zoning treats siting conflict not as a question of vague public acceptance, but as an economic problem with spatially differentiated social costs.</p>
+    <p class="page-summary">
+        My research on wind-power zoning treats siting conflict not as a question of vague public "acceptance", but as an economic problem with spatially differentiated local social costs.</p>
     <p class="page-summary">The work identifies the trade-offs implicit in zoning and siting decisions and renders them usable for economic analysis and power-system modelling.</p>
   </div>
 </section>
@@ -18,7 +19,7 @@ permalink: /research/
   <div class="research-list">
     <article class="research-entry">
       <h3>Local social cost of solar PV</h3>
-      <p>Extending the local-social-cost framework from wind-power zoning to solar PV and its spatial planning constraints.</p>
+      <p>Extending the local-social-cost framework from wind-power zoning to solar PV and related spatial planning constraints.</p>
     </article>
     <article class="research-entry">
       <h3>Wind power zoning 2024</h3>
@@ -26,7 +27,7 @@ permalink: /research/
     </article>
     <article class="research-entry">
       <h3>Social cost and MGA</h3>
-      <p>Studying how social-cost representations relate to modelling-to-generate-alternatives approaches in energy system planning.</p>
+      <p>Studying the relation between social-cost representations and modelling-to-generate-alternatives approaches in energy system planning.</p>
     </article>
   </div>
 </section>

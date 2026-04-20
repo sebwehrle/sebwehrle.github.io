@@ -1,13 +1,13 @@
 ---
 layout: default
 title: "Publications"
-description: "Selected working papers and published research."
+description: "Selected publications."
 permalink: /publications/
 ---
 
 <section class="page-intro page-intro--single">
   <h1 class="page-title">Publications</h1>
-  <p class="page-summary">A selection of working papers and published research.</p>
+  <p class="page-summary">Selected publications.</p>
 </section>
 
 <section class="publication-list" aria-label="Publication list">
