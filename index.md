@@ -7,8 +7,8 @@ body_class: home
 
 <section class="home-intro" aria-labelledby="home-title">
   <h1 id="home-title">Sebastian Wehrle</h1>
-  <p class="descriptor">ENERGY AND ENVIRONMENTAL ECONOMICS</p>
+  <p class="descriptor">ENERGY & ENVIRONMENTAL ECONOMICS</p>
   <span class="rule" aria-hidden="true"></span>
-  <p class="intro-copy">My work examines how economic models relate to real-world systems, particularly where frictions and externalities matter. It is motivated by long-term planning questions for the social good, with a focus on approaches that remain theoretically sound while capturing the relevant features of these systems.</p>
+  <p class="intro-copy">My work examines the economics of electricity systems and renewable energy. A central strand studies wind-power expansion in Austria, developing economic frameworks for the siting conflicts and local social costs reflected in zoning and long-term planning decisions.</p>
   <p class="affiliations">Wien Energie · BOKU University</p>
 </section>

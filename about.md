@@ -9,9 +9,9 @@ permalink: /about/
   <div>
     <h1 class="page-title">About</h1>
     <div class="about-copy">
-      <p>My work sits between applied energy-sector modelling and academic research.</p>
-      <p>At Wien Energie, I lead quantitative analysis for planning and investment questions. At BOKU University, I am affiliated with the Institute of Sustainable Economic Development. The interaction between these roles makes the assumptions embedded in energy system models a practical concern rather than an abstract one.</p>
-      <p>My perspective is informed by work in utilities, grid infrastructure, energy markets, and research. I am most interested in models that remain simple enough to reason about, but rich enough to capture the constraints that matter in practice.</p>
+      <p>My work sits between applied electricity-system modelling and academic research.</p>
+      <p>At Wien Energie, I lead quantitative analysis for long-term planning and investment decisions in the electricity system. At BOKU University, I am affiliated with the Institute of Sustainable Economic Development. The interaction between these roles makes the assumptions embedded in energy system models a practical concern rather than an abstract one.</p>
+      <p>My perspective is informed by work in utilities, grid infrastructure, energy markets, and research. A central strand of my research develops economically coherent approaches to land-use conflict and wind-power siting in Austria, with attention to the constraints that matter in practice.</p>
     </div>
   </div>
   <div class="about-side">
